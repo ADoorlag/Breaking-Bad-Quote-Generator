@@ -22,7 +22,7 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .image {
@@ -52,11 +52,11 @@ section {
 
 #content.show {
   display: block;
-  margin-top: 100px;
+  margin-top: 75px;
 }
 
-#phrase {
-  font-size: 55px;
+#quote {
+  font-size: 50px;
   margin-bottom: 20px;
 }
 
