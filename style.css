@@ -46,11 +46,11 @@ section {
   align-items: center;
 }
 
-#content {
+/* #content {
   display: none;
-}
+} */
 
-#content.show {
+#output {
   display: block;
   margin-top: 75px;
 }
@@ -73,15 +73,19 @@ section {
   font-weight: 600;
 }
 
+/* #generate-btn.hidden {
+  display: none;
+} */
+
 /* loader */
 
-#loading {
+/* #loading {
   display: none;
 }
 
 #loading.show {
   display: block;
-}
+} */
 
 #loader {
   height: 500px;
