@@ -1,3 +1,4 @@
+/* Full document styling */
 * {
   margin: 0;
   padding: 0;
@@ -8,15 +9,16 @@ body {
   background-image: linear-gradient(
     to right,
     rgb(0, 0, 0),
-    rgb(1, 32, 9),
+    rgb(2, 54, 13),
     rgb(0, 0, 0)
   );
-  /*background: url("images/bg.jpg") center center/cover no-repeat;*/
+
   color: #fff;
   overflow: hidden;
   font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
 }
 
+/* Header and title */
 header {
   display: flex;
   flex-direction: row;
@@ -37,7 +39,8 @@ header {
   font-weight: 600;
 }
 
-section {
+/* Content div */
+#content {
   width: 100%;
   text-align: center;
   display: flex;
@@ -46,48 +49,47 @@ section {
   align-items: center;
 }
 
-/* #content {
-  display: none;
-} */
-
+/* Dynamically generated content styling*/
 #output {
   display: block;
   margin-top: 75px;
 }
 
+#wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Random quote and author */
 #quote {
   font-size: 50px;
   margin-bottom: 20px;
 }
 
 #author {
-  font-size: 45px;
+  font-size: 40px;
   margin: 10px 0;
 }
 
+/* Button */
 #generate-btn {
   margin-top: 10px;
   background-color: green;
   color: #fff;
   padding: 10px;
   font-weight: 600;
+  cursor: pointer;
 }
 
-/* #generate-btn.hidden {
-  display: none;
-} */
-
-/* loader */
-
-/* #loading {
-  display: none;
-}
-
-#loading.show {
-  display: block;
-} */
-
+/* Loading gif */
 #loader {
   height: 500px;
   width: 500px;
+}
+
+/* error message */
+#error {
+  font-size: 55px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
