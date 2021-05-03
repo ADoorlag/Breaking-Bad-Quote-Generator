@@ -10,7 +10,7 @@ This app works automatically as soon as it's finished loading in the browser. A 
 
 ### Live Version
 
-The live version of this app can be found HERE
+The live version of this app can be found [HERE](https://breaking-bad-quote-generator.netlify.app/)
 
 ### License
 
